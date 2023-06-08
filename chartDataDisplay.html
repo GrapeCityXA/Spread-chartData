@@ -1,0 +1,57 @@
+<!doctype html>
+<!-- <html lang="en"> -->
+<!--柱形图-->
+<head>
+    <!--格式为UTF-8-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="spreadjs culture" content="zh-cn" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柱形图表格</title>
+    <!-- 引入SpreadJS相关的CSS,默认会有一个CSS
+    SpreadJS默认提供了7种CSS，可以选择一个适合当前项目的引入
+-->
+    <link rel="stylesheet" type="text/css" href="./css/gc.spread.sheets.excel2013white.15.1.0.css" />
+    <!-- 核心资源，最小依赖资源，只要引入了该资源，组件运行时就能显示出来 -->
+    <script type="text/javascript" src="./js/gc.spread.sheets.all.15.1.0.min.js"></script>
+    <!-- 中文资源文件，组件运行时默认会用英文资源，使用中文资源需要引入并设置 -->
+    <script type="text/javascript" src="./js/gc.spread.sheets.resources.zh.15.1.0.min.js"></script>
+    <!-- 导入导出excel文件的相关资源 -->
+    <script type="text/javascript" src="./js/gc.spread.excelio.15.1.0.min.js"></script>
+    <!-- 形状相关资源-->
+    <script type="text/javascript" src="./js/gc.spread.sheets.shapes.15.1.0.min.js"></script>
+    <!-- 透视表相关资源 -->
+    <script type="text/javascript" src="./js/gc.spread.pivot.pivottables.15.1.0.min.js"></script>
+    <!-- 图表的相关资源 -->
+    <script type="text/javascript" src="./js/gc.spread.sheets.charts.15.1.0.min.js"></script>
+    <!-- 二维码相关资源 -->
+    <script type="text/javascript" src="./js/gc.spread.sheets.barcode.15.1.0.min.js"></script>
+    <!-- 打印相关资源 -->
+    <script type="text/javascript" src="./js/gc.spread.sheets.print.15.1.0.min.js"></script>
+    <!-- PDF相关资源 -->
+    <script type="text/javascript" src="./js/gc.spread.sheets.pdf.15.1.0.min.js"></script>
+    <!-- 集算表相关资源 集算表是SpreadJS特有的功能 -->
+    <script type="text/javascript" src="./js/gc.spread.sheets.tablesheet.15.1.0.min.js"></script>
+    <!--表格格式-->
+    <style>
+        #ss {
+            height: 98vh;
+            float: left; 
+            width: 100%;
+            /* left: auto; */
+        }
+    </style>
+    <!--引入Js文件-->
+    <script src="./js/chartDataDisplay.js" type="text/javascript"></script>
+    <!--引入Css文件-->
+    <link rel="stylesheet" type="text/css" href="./css/chartDataDisplay.css">
+</head>
+<body>
+<div class="sample-tutorial">
+    <div id="ss" class="sample-tutorial"></div>
+</div>
+<script>
+
+</script>
+</body>
+</html>
